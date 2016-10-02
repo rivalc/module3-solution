@@ -1,0 +1,68 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #C5CFD4;
+  font-family: sans-serif;
+}
+.jumbotron{
+	background-color: #1C6B63;
+/*	background-color: #B4BEC3;*/
+}
+.container p{
+	
+	color: #C5CFD4; 
+}
+
+#header-nav{
+	background-color: #1C6B63;
+	border: 0;
+
+}
+#ntext{
+ color: #C5CFD4;
+ font-size: 28px;
+}
+#nav-list a:hover {
+  background: #1C6B63;
+  }
+
+#nav-list a {
+  color: #C5CFD4;
+  text-align: center;
+}
+#nav-list {
+	font-family: 'Oxygen';
+	font-size: 24px;
+}
+h1{
+	color: #1C6B63;
+	margin-top: 40px;
+	margin-bottom: 60px;
+	text-shadow: 1px 1px 1px #222;
+}
+#collapsable-nav{
+	background-color: #30847C;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+	#collapsable-nav{
+	background-color: #1C6B63;
+}
+
+  }
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+	#collapsable-nav{
+	background-color: #1C6B63;
+ 
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	#collapsable-nav{
+	background-color: #1C6B63;
+ 
+  }
+}
